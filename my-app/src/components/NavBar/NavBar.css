@@ -1,0 +1,25 @@
+.Navigation {
+    display: flex;
+    background-color: #111111;
+    min-height: 5vh;
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+    width: 92%;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.Logo{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    object-fit: cover;
+}
